@@ -215,6 +215,20 @@ export default function BirthdayCardPage() {
             onSelectWish={(id) => {
               setSelectedWishId(id);
               setStage("result");
+
+              void fetch("/api/wishes", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ wishId: id, recipient, sender }),
+              })
+                .then((response) => {
+                  if (!response.ok) {
+                    console.error(`Could not save the selected wish (${response.status}).`);
+                  }
+                })
+                .catch((error) => {
+                  console.error("Could not save the selected wish:", error);
+                });
             }}
           />
         )}
@@ -249,6 +263,7 @@ export default function BirthdayCardPage() {
             key={`finale-${runKey}`}
             recipient={recipient}
             sender={sender}
+            wishId={selectedWish.id}
             wishTitle={selectedWish.title}
             finalBlessing={cardConfig.finalBlessing}
             nightSkyImageUrl={cardConfig.nightSkyImage}

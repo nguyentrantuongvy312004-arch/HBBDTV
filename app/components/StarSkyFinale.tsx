@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { cardConfig } from "../card-config";
+import { cardConfig, type WishItem } from "../card-config";
 import { soundEngine } from "./SoundEngine";
 
 // ============================================================================
@@ -24,6 +24,7 @@ import { soundEngine } from "./SoundEngine";
 interface StarSkyFinaleProps {
   recipient: string;
   sender: string;
+  wishId: WishItem["id"];
   wishTitle: string;
   finalBlessing: string;
   nightSkyImageUrl: string;
@@ -531,6 +532,7 @@ function createSkyTexture(
 export default function StarSkyFinale({
   recipient,
   sender,
+  wishId,
   wishTitle,
   finalBlessing,
   nightSkyImageUrl,
@@ -538,6 +540,8 @@ export default function StarSkyFinale({
 }: StarSkyFinaleProps) {
   const [phase, setPhase] = useState<FinalePhase>("card");
   const [personalWish, setPersonalWish] = useState("");
+  const [isSavingWish, setIsSavingWish] = useState(false);
+  const [wishSaveError, setWishSaveError] = useState("");
   const [glReady, setGlReady] = useState(false);
 
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -553,8 +557,34 @@ export default function StarSkyFinale({
   }, [phase]);
 
   // Nhịp 1 -> Nhịp 2: Biến điều ước thành 1 ngôi sao thiên văn thật lấp lánh chờ chạm tay.
-  const handleTransformToStar = () => {
-    if (phase !== "card") return;
+  const handleTransformToStar = async () => {
+    if (phase !== "card" || isSavingWish) return;
+
+    const wishText = personalWish.trim();
+    if (wishText) {
+      setIsSavingWish(true);
+      setWishSaveError("");
+
+      try {
+        const response = await fetch("/api/personal-wishes", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ wishId, wishText, recipient, sender }),
+        });
+
+        if (!response.ok) {
+          throw new Error(`Saving wish failed (${response.status}).`);
+        }
+      } catch (error) {
+        console.error("Could not save personal wish:", error);
+        setWishSaveError("Chưa lưu được điều ước. Kiểm tra kết nối rồi thử gửi lại nhé.");
+        setIsSavingWish(false);
+        return;
+      }
+
+      setIsSavingWish(false);
+    }
+
     soundEngine.playWishToStar();
     setPhase("morphing");
     window.setTimeout(() => {
@@ -850,6 +880,11 @@ export default function StarSkyFinale({
               />
               <span className="secret-wish-underline" aria-hidden="true" />
             </div>
+            {wishSaveError && (
+              <p className="cinema-subtitle" role="alert">
+                {wishSaveError}
+              </p>
+            )}
           </div>
 
           <div className="ornate-actions">
@@ -857,9 +892,10 @@ export default function StarSkyFinale({
               type="button"
               className="golden-amber-btn"
               onClick={handleTransformToStar}
+              disabled={isSavingWish}
             >
               <span>✦</span>
-              <span>Gửi điều ước hóa thành ngôi sao</span>
+              <span>{isSavingWish ? "Đang lưu điều ước…" : "Gửi điều ước hóa thành ngôi sao"}</span>
               <span>✦</span>
             </button>
             <button type="button" className="restart-underline-btn" onClick={onRestart}>

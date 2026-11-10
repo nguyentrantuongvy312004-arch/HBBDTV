@@ -10,10 +10,10 @@
 
 export const cardConfig = {
   // Tên người nhận thiệp (điền tên sau, mặc định để "Cậu" cho thân mật, tự nhiên).
-  recipient: "Quỳnh",
+  recipient: "Cậu",
 
   // Tên người gửi hiển thị ở phần ký tên cuối thiệp.
-  sender: "Vy",
+  sender: "Tớ",
 
   // Ngày sinh nhật (1–31) và tháng sinh nhật (1–12) để vòng số chạy dọc dừng lại đúng ngày.
   birthdayDay: 17,
