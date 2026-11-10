@@ -10,7 +10,7 @@
 
 export const cardConfig = {
   // Tên người nhận thiệp (điền tên sau, mặc định để "Cậu" cho thân mật, tự nhiên).
-  recipient: "Cậu",
+  recipient: "Quỳnh",
 
   // Tên người gửi hiển thị ở phần ký tên cuối thiệp.
   sender: "Vy",
