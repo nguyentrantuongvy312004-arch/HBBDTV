@@ -338,7 +338,7 @@ export default function IntroStage({
         <span className="hogwarts-ink-address">
           <span className="hogwarts-ink-salutation">Kính gửi {recipient},</span>
           <span className="hogwarts-ink-whisper">
-            Lời chúc tuổi mới đã được niêm phong dưới ánh nến vàng dành riêng cho cậu…
+             Lời chúc đã được niêm phong dưới ánh nến vàng dành riêng cho Anhhh…
           </span>
         </span>
       </button>
@@ -353,7 +353,7 @@ export default function IntroStage({
           <span className="hogwarts-cta-spark" aria-hidden="true">
             ✦
           </span>
-          <span>Chạm mở ấn sáp vàng &amp; bật giai điệu sinh nhật</span>
+          <span>Chạm mở ấn sáp vàng &amp; bật giai điệu sinh nhật (hong có khóc nha)</span>
           <span className="hogwarts-cta-spark" aria-hidden="true">
             ✦
           </span>

@@ -647,16 +647,16 @@ export default function RealisticCakeStage({ onComplete }: RealisticCakeStagePro
   };
 
   // Dòng chữ thì thầm dưới bánh kem biến chuyển mượt theo đúng từng nhịp giữ tay như video gốc.
-  let statusLine = "Nhấn và giữ vào chiếc bánh khoảng 3 giây để thắp sáng nến nhé…";
+  let statusLine = "Nhấn và giữ vào chiếc bánh khoảng 3 giây để thắp sáng nến nhoooo";
   if (completed) {
     statusLine = "Nến sinh nhật đã bùng sáng rực rỡ nhất ✦";
   } else if (isHolding) {
     if (displayProgress < 0.36) {
-      statusLine = "đang thắp nến cho cậu…";
+      statusLine = "đang thắp nến cho Anh…";
     } else if (displayProgress < 0.76) {
-      statusLine = "giữ nữa… giữ tiếp nhé…";
+      statusLine = "giữ nữa… giữ tiếp hong được thả ra…";
     } else {
-      statusLine = "sắp rực rỡ nhất rồi, nhắm mắt ước ngay nhé…";
+      statusLine = "sắp rực rỡ nhất rồi, nhắm mắt ước ngay nèee…";
     }
   } else if (displayProgress > 0.05) {
     statusLine = "giữ thêm một chút nữa để cả 6 ngọn nến bùng sáng nhé…";
@@ -686,8 +686,8 @@ export default function RealisticCakeStage({ onComplete }: RealisticCakeStagePro
 
       {/* Cụm lời nhắn tinh tế đặt phía dưới chiếc bánh kem */}
       <div className="cake-caption-group">
-        <p className="cake-lead-text">Có một món quà nhỏ dành cho cậu…</p>
-        <p className="cake-sub-text">Nhưng trước tiên nhớ thắp nến ước trước nhé</p>
+        <p className="cake-lead-text">Có một món quà nho nhỏ xinh xinh dành cho Anh nè…</p>
+        <p className="cake-sub-text">Chờ chút phải thắp nến và ước trước đã</p>
 
         {/* Thanh ánh sáng mảnh hiển thị tiến trình 3 giây thắp nến */}
         <div className="candle-progress-track" aria-hidden="true">

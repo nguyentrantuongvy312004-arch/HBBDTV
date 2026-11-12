@@ -10,14 +10,14 @@
 
 export const cardConfig = {
   // Tên người nhận thiệp (điền tên sau, mặc định để "Cậu" cho thân mật, tự nhiên).
-  recipient: "Cậu",
+  recipient: "Quỳnh Già",
 
   // Tên người gửi hiển thị ở phần ký tên cuối thiệp.
-  sender: "Tớ",
+  sender: "Bà Zà Yamaha",
 
   // Ngày sinh nhật (1–31) và tháng sinh nhật (1–12) để vòng số chạy dọc dừng lại đúng ngày.
-  birthdayDay: 17,
-  birthdayMonth: 7,
+  birthdayDay: 15,
+  birthdayMonth: 11,
 
   // Đường dẫn đến file nhạc nền trong thư mục public (ví dụ: "/nhac-sinh-nhat.mp3").
   // Nếu để trống "", thiệp sẽ tự động ngân vang giai điệu Piano & Hộp nhạc ấm áp ngay khi mở ấn sáp.
@@ -75,10 +75,10 @@ export const cardConfig = {
   // Các câu tâm sự hiện lên từng câu một sau khi thắp nến xong:
   // Câu trước hiện rõ -> dừng lại để đọc -> mờ dần tan đi -> câu tiếp theo xuất hiện (tổng ~16 giây).
   thoughts: [
-    "Hôm nay là ngày thế giới dịu dàng đón cậu đến với cuộc đời này…",
-    "Cảm ơn cậu vì đã luôn kiên cường, tỏa sáng theo cách riêng ngay cả trong những ngày lặng lẽ nhất.",
-    "Mong tuổi mới của cậu rực rỡ ánh vàng may mắn, ngập tràn tiếng cười và những buổi chiều thảnh thơi.",
-    "Trước khi bước vào hành trình mới, hãy chọn một phong thư ấn sáp vàng dành riêng cho mình nhé.",
+    "Hôm nay là ngày thế giới dịu dàng đón Nguyễn Công Quỳnh đến với thế giới này…",
+    "Cảm ơn Anh vì đã luôn kiên cường, tỏa sáng theo cách riêng ngay cả trong những ngày lặng lẽ nhất.",
+    "Em chỉ mong tuổi 27 anh vẫn là chính anh, luôn mỉm cười và hạnh phúc. Cảm ơn Anh vì đã đến. Thương anh nhất trên đời, thiệt đó!.",
+    "Trước khi bước vào nội dung chính, Anh hãy chọn một phong thư dành riêng cho Anh nhennn.",
   ],
 
   // Nội dung trên tờ giấy thủ công: chữ sẽ hiện ra mượt mà như nét bút mực viết tay trong đúng 10 giây.
@@ -107,7 +107,7 @@ export const wishes = [
     tiltDeg: -1.35,
     icon: "✦",
     message:
-      "Chúc con đường công việc và những dự định của cậu ngày càng hanh thông, vững vàng như vàng mười. Mong mọi cố gắng âm thầm đều kết trái ngọt để cậu luôn tự hào về hành trình mình đang đi.",
+      "Trên con đường sự nghiệp của Anh chẳng may có vấp ngã, thật mong Anh biết, chẳng phải mình Anh đau. Người yêu em giỏi giang, tất nhiên em tự hào. Nhưng em không tin vào sức khỏe của Anh. Nên là đừng để vất vả quá đấy, mệt thì nghỉ ngơi, ăn uống đàng hoàng để còn lo Shopee, Tiktok,... cho em nữaaaa.",
   },
   {
     id: "love",
@@ -120,7 +120,7 @@ export const wishes = [
     tiltDeg: 1.05,
     icon: "✧",
     message:
-      "Chúc trái tim cậu luôn được nâng niu, được thấu hiểu và ở cạnh những người khiến cậu thấy an toàn nhất khi là chính mình. Hôm nay cậu xứng đáng nhận về thật nhiều ấm áp và thương mến.",
+      "QUÁ TUYỆT!!!! Không có gì để bàn.",
   },
   {
     id: "health",
@@ -133,7 +133,7 @@ export const wishes = [
     tiltDeg: -0.85,
     icon: "☼",
     message:
-      "Chúc cậu một tuổi mới dồi dào sức khỏe, ăn ngon miệng, ngủ thật sâu và luôn tràn đầy sinh lực tươi sáng để tận hưởng trọn vẹn từng chuyến đi, từng niềm vui phía trước.",
+      "Em mong Anh luôn thật nhiều sức khỏe, ăn uống đầy đủ, ngủ nghỉ đúng giờ và đừng làm việc quá sức GA. Dù có bận rộn đến đâu cũng nhớ dành thời gian chăm sóc bản thân, đừng để bản thân mệt mỏi hay kiệt sức. Em không mong gì nhiều, chỉ mong Anh luôn khỏe mạnh, vui vẻ, bình an và mọi chuyện trong cuộc sống đều thuận lợi. Nhớ giữ gìn sức khỏe thật tốt nhé, vì Anh khỏe mạnh và hạnh phúc cũng là em vui ời.❤️",
   },
   {
     id: "spirit",
@@ -146,7 +146,7 @@ export const wishes = [
     tiltDeg: 1.25,
     icon: "☾",
     message:
-      "Mong cậu luôn giữ được một khoảng trời trong trẻo và tĩnh tại trong tâm hồn, biết gác lại âu lo khi mỏi mệt và mỉm cười thật tươi trước những điều nhỏ bé đáng yêu mỗi ngày.",
+      "Mong anh lúc nào cũng giữ được tinh thần thật tốt, luôn vui vẻ, lạc quan. Cuộc sống chắc chắn sẽ có khó khăn, áp lực, có những chuyện không được như ý, thì anh cũng đừng quá khắt khe với anh thân nha. Hãy cho bản thân được nghỉ ngơi, đừng giữ mọi muộn phiền trong lòng và cũng đừng quên rằng anh không cần phải lúc nào cũng mạnh mẽ. Em mong mỗi ngày của anh đều nhẹ nhàng hơn, cười nhiều hơn, vì cười nhiều là chấp mụn lên lun đó kkkkk.   ",
   },
 ] as const;
 

@@ -159,7 +159,7 @@ export default function HeartResultStage({
               className="heart-open-gallery-hint"
               onClick={() => setLightboxIndex(0)}
             >
-              <span>✦</span> Chạm vào trái tim để lật xem từng tấm ảnh kỷ niệm <span>✦</span>
+              <span>✦</span> Tim của Em đó, chạm vào i, của anh tất ròi <span>✦</span>
             </button>
           </div>
         </div>
@@ -167,7 +167,7 @@ export default function HeartResultStage({
         {/* CỘT 2: Tờ giấy nguyện ước vừa rút ra từ phong bì cổ, chữ mực hiện mượt từng từ */}
         <div className="wish-parchment-column">
           <p className="heart-small-dedication">
-            Tờ nguyện ước vừa mở ra dành riêng cho cậu
+            Tờ nguyện ước vừa mở ra dành riêng cho NCQ
           </p>
 
           <h1 className="heart-birthday-headline">
@@ -226,7 +226,7 @@ export default function HeartResultStage({
               className="cinema-pill-btn golden-glow"
               onClick={onOpenLetter}
             >
-              <span>Đọc lá thư viết tay dành cho cậu</span>
+              <span> Secret Secret đó, thư tay ón lài, là thấy tui thương anh cỡ nào gồi đó</span>
               <span aria-hidden="true">→</span>
             </button>
             <button
@@ -234,7 +234,7 @@ export default function HeartResultStage({
               className="cinema-ghost-link"
               onClick={onChooseAnotherWish}
             >
-              ↺ Mở xem một phong thư nguyện ước khác
+              ↺  Xem hết thư này, thì xem những thư còn lại, rồi mới được xem SECRET nhé Anh khùng, không gian lận à
             </button>
           </div>
         </div>

@@ -58,7 +58,7 @@ export default function ThoughtsStage({ thoughts, onComplete }: ThoughtsStagePro
       {/* Ánh sáng ấm chiếu nhẹ ở tâm khung hình như đèn chiếu phim */}
       <div className="thoughts-spotlight" aria-hidden="true" />
 
-      <p className="cinema-eyebrow">ĐÔI DÒNG GỬI CẬU</p>
+      <p className="cinema-eyebrow">ĐÔI DÒNG GỬI ANH QUỲNH ZÀ</p>
 
       {/* Vùng hiển thị từng câu tâm sự với hiệu ứng từng từ nổi nét mượt mà */}
       <div className="thought-sentence-stage" aria-live="polite">

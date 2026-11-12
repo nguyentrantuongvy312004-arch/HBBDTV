@@ -58,7 +58,7 @@ export default function WishEnvelopesStage({
           Dành cho tuổi mới của <em>{recipient}</em>
         </h1>
         <p className="cinema-subtitle">
-          Chạm nhẹ vào phong thư ấn sáp vàng mà trái tim cậu muốn mở ra nhất lúc này…
+          Chạm nhẹ vào phong thư ấn sáp vàng mà trái tim Anh muốn mở ra nhất lúc này.
         </p>
 
         {/* Lưới 4 phong bì giấy thủ công chụp thật đặt hơi nghiêng tự nhiên trên mặt bàn */}

@@ -145,7 +145,7 @@ export default function DateWheelStage({
   return (
     <div className={`date-wheel-stage ${exiting ? "stage-fade-out" : "stage-fade-in"}`}>
       {/* Dòng tiêu đề mở đầu tinh tế như tựa phim điện ảnh */}
-      <p className="date-wheel-kicker">NGÀY ĐẶC BIỆT CỦA CẬU</p>
+      <p className="date-wheel-kicker">MỤT NGÀY ĐẶC BIỆT CỦA QUỲNH BỐP</p>
       <h1 className="date-wheel-heading">Happy Birthday</h1>
 
       {/* Khung vòng số chạy dọc với quầng bokeh vàng chụp thật từ ống kính máy ảnh */}
