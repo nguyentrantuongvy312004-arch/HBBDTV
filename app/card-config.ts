@@ -54,22 +54,34 @@ export const cardConfig = {
   // dùng để ghép thành hình trái tim 46 mảnh và xem phóng to trong album Polaroid 35mm.
   // Khi muốn thay bằng ảnh thật của người nhận, bạn chép ảnh vào public/media rồi sửa đường dẫn bên dưới.
   photos: [
-    "/media/memory-1.jpg",
-    "/media/memory-2-gold.jpg",
-    "/media/memory-3.webp",
-    "/media/memory-4-gold.jpg",
-    "/media/memory-5-gold.jpg",
-    "/media/memory-6-gold.jpg",
+    "/media/0317971074f5f4abade4.jpg",
+    "/media/9652665184b404ea5da5.jpg",
+    "/media/19ebcb4129a4a9faf0b5.jpg",
+    "/media/8f80e0560cb38cedd5a2.jpg",
+    "/media/f63ad3d23f37bf69e626.jpg",
+    "/media/4e2278c9942c14724d3d.jpg",
+    "/media/9fbac96e258ba5d5fc9a.jpg",
+    "/media/0d3ae9d00535856bdc24.jpg",
+    "/media/2a502d55c0b040ee19a1.jpg",
+    "/media/546c280ac5ef45b11cfe.jpg",
+    "/media/f0cd02f6ef136f4d3602.jpg",
+    "/media/c24dcada233fa361fa2e.jpg",
   ] as string[],
 
   // Dòng chú thích kỷ niệm hiển thị dưới mỗi bức ảnh khi mở chế độ xem ảnh Polaroid chi tiết.
   photoCaptions: [
-    "Ánh pháo bông vàng kim lấp lánh trong đêm như nụ cười rạng rỡ của cậu",
-    "Đóa hồng vàng sâm panh dịu dàng chúc tuổi mới viên mãn và thịnh vượng",
-    "Chút ngọt ngào ấm áp cho một ngày sinh nhật thật đáng nhớ",
-    "Những đốm sáng hoàng kim gom lại thành muôn vàn điều may mắn",
-    "Chiều hoàng hôn ánh vàng khép lại mọi muộn phiền của năm cũ",
-    "Mỗi cánh hoa bạch kim ngà là một lời chúc bình an gửi đến bên cậu",
+    "Tục tưng tục tưng mỉm của mẹ Thúy ba Công.",
+    "Cậu Bốp dịu dàng chúc tuổi mới rực rỡ và hạnh phúc",
+    "Cậu Bốp và gia đình đáng yêu của cậu",
+    "Mây chúc ba nuôi sinh nhựt hạnh phúc nè!",
+    "BaBa đơn thân chinh chựt vui vẻ nhó - Limo",
+    "Cậu Bốp đừng bắt nạt em Út nữa nhé!",
+    "Cỡ này không á",
+    "Và đây là sinh nhật sinh nhật của Nguyễn Công Quỳnh",
+    "Bức ảnh em thích nhứt nè, cậu Bốp ơi",
+    "Vẫn hé những nụ cười xuynh",
+    "Nụ cười như ánh nắng ban mai, làm ems ngây ngất",
+    "Xịt mũi",
   ],
 
   // Các câu tâm sự hiện lên từng câu một sau khi thắp nến xong:
