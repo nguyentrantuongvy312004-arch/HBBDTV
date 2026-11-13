@@ -66,6 +66,14 @@ export const cardConfig = {
     "/media/546c280ac5ef45b11cfe.jpg",
     "/media/f0cd02f6ef136f4d3602.jpg",
     "/media/c24dcada233fa361fa2e.jpg",
+    "/media/ef93cd19e5ff65a13cee.jpg",
+    "/media/173a4b40a3a523fb7ab4.jpg",
+    "/media/44fcb59e6278e226bb69.jpg",
+    "/media/48004765908310dd4992.jpg",
+    "/media/874f7d2faac92a9773d8.jpg",
+    "/media/9d1e8a7b5d9dddc3848c.jpg",
+    "/media/077259108ef60ea857e7.jpg",
+    "/media/fb22de5f09b989e7d0a8.jpg",
   ] as string[],
 
   // Dòng chú thích kỷ niệm hiển thị dưới mỗi bức ảnh khi mở chế độ xem ảnh Polaroid chi tiết.
@@ -82,6 +90,15 @@ export const cardConfig = {
     "Vẫn hé những nụ cười xuynh",
     "Nụ cười như ánh nắng ban mai, làm ems ngây ngất",
     "Xịt mũi",
+    "Cậu Hai Quỳnh cứ mãi nhí nhảnh vậy nhé!!!",
+    "Sinh nhật hạnh phúc nhé chàng mèo cụa iem:)",
+    "Ý chúc Anh Quỳnh sinh nhật vui vẻ nha",
+    "Anh Quỳnh sinh nhật vui vẻ ạ",
+    "Chàng Tấm rạng rỡ nhéee",
+    "Ú òa anh khùng",
+    "Moon&Star",
+    "Tưởng tượng mặt này mà buồn trông mắc cười lắm nè"
+    
   ],
 
   // Các câu tâm sự hiện lên từng câu một sau khi thắp nến xong:
@@ -94,15 +111,23 @@ export const cardConfig = {
   ],
 
   // Nội dung trên tờ giấy thủ công: chữ sẽ hiện ra mượt mà như nét bút mực viết tay trong đúng 10 giây.
-  letter: `Tớ không giỏi nói mấy lời hoa mỹ, nên viết đơn giản thôi: chúc mừng sinh nhật cậu nha.
+  letter: `15.11.2026, đây là năm đầu tiên mà em được đón sinh nhật với anh, em hi vọng sẽ được thổi nến cùng anh từ năm này đến những năm còn lại lun. 
+  
+  Em không muốn nói những lời hoa mỹ, mà em muốn cảm ơn anh. Cảm ơn tai nạn đó để em gặp được anh, cảm ơn anh vì đã đến với em, cảm ơn anh đã sống tử tế, cố gắng hết mình vì những mục tiêu đề ra.
 
-Năm vừa rồi chắc chẳng dễ dàng gì, vậy mà cậu vẫn đi tới được hôm nay — vững vàng và giỏi hơn cậu nghĩ nhiều đấy.
+  Em biết anh đang rất cố gắng để chứng minh bản thân với gia đình, có thể đôi lúc anh vẫn thấy mình làm chưa đủ tốt, nhưng với em việc anh không ngừng bước tiếp là điều đáng tự hào gồi.
 
-Tớ chỉ mong tuổi mới mọi điều thuận lợi hanh thông đến với cậu, ăn ngon ngủ đủ, bớt lo một chút, và luôn dịu dàng với chính mình nhiều hơn nữa nhé.`,
+  Có những suy nghĩ, áp lực anh chọn giữ riêng cho anh và điều đó là khiến em càng thương anh nhiều hơn. Mà anh oi, anh đừng quên hiện tại bên cạnh anh đã có em rồi nài, khuyết điểm là không giỏi an ủi hôi, còn ưu điểm là em lắng nghe giỏi lắm, nên anh đừng ngại mà chia sẻ với em nha. GACK.
+
+  Tuổi 27, em chúc anh hạnh phúc, vui vẻ, khỏe mạnh và bình an nè.
+
+  Sinh nhật lần này là vui chắc gồi :))))
+  
+  `,
 
   // Lời nhắn trang trọng trong khung viền nhũ vàng 24K trước khi điều ước hóa thành ngôi sao.
   finalBlessing:
-    "Mong điều ước cậu chọn — và cả lá thư nhỏ ánh vàng này — thật sự tìm được đường đến với cậu trong năm mới.",
+    "Mong điều ước Anh chọn - và cả lá thư nhỏ ánh vàng này - thật sự tìm được đường đến với Anh trong năm mới.",
 };
 
 // Bốn lá thư nguyện ước tương ứng 4 lĩnh vực: Công việc, Tình yêu, Sức khỏe, Tinh thần.

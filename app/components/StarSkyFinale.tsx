@@ -874,7 +874,7 @@ export default function StarSkyFinale({
                 type="text"
                 value={personalWish}
                 onChange={(e) => setPersonalWish(e.target.value)}
-                placeholder={`Viết thêm điều ước thầm kín của ${recipient} trên dòng nhũ vàng…`}
+                placeholder={`Viết thêm điều ước thầm kín của Anh trên dòng nhũ vàng…`}
                 className="secret-wish-input"
                 maxLength={120}
               />
@@ -924,13 +924,13 @@ export default function StarSkyFinale({
           <div className="star-touch-prompt">
             <p className="cinema-eyebrow">NGÔI SAO ƯỚC NGUYỆN • {wishTitle.toUpperCase()}</p>
             <h2 className="star-ready-title">
-              Điều ước của <em>{recipient}</em> đã hóa thành một vì sao
+              Điều ước của <em>Anh</em> đã hóa thành một vì sao rồi đó!
             </h2>
             {personalWish.trim() && (
               <p className="personal-wish-whisper">“{personalWish.trim()}”</p>
             )}
             <p className="star-touch-instruction">
-              ✦ Chạm nhẹ vào ngôi sao sáng để thả điều ước bay vào không gian bầu trời đêm…
+              ✦ Anh chạm nhẹ vào ngôi sao để thả điều ước bay vào Vũ trụ ii…
             </p>
           </div>
         </div>
@@ -939,12 +939,12 @@ export default function StarSkyFinale({
       {/* NHỊP 3: Lời kết tĩnh lặng dưới bầu trời dải Ngân Hà thật sau khi sao đã hòa vào vũ trụ */}
       {phase === "arrived" && (
         <div className="sky-epilogue-panel stage-fade-in">
-          <p className="cinema-eyebrow">ĐIỀU ƯỚC ĐÃ THUỘC VỀ BẦU TRỜI ĐÊM</p>
+          <p className="cinema-eyebrow">ĐIỀU ƯỚC ĐÃ THUỘC VỀ VŨ TRỤ</p>
           <h2 className="sky-epilogue-title">
-            Vì sao của <em>{recipient}</em> đang lấp lánh trên cao
+            Ngôi sao của <em>Anh</em> đang lấp lánh trên cao nèe
           </h2>
           <p className="sky-epilogue-copy">
-            Mỗi khi ngước nhìn bầu trời đêm, hãy nhớ rằng luôn có những điều ấm áp nhất đang hướng về cậu. Chúc mừng sinh nhật nhé!
+            Mỗi khi ngước nhìn lên bầu trời, hãy nhớ rằng luôn có những điều ấm áp nhất đang hướng về Anh. Chúc mừng sinh nhật ACKCE nhé!
           </p>
           <button type="button" className="cinema-pill-btn golden-glow" onClick={onRestart}>
             <span>Xem lại tấm thiệp từ đầu</span>

@@ -234,7 +234,7 @@ export default function HeartResultStage({
               className="cinema-ghost-link"
               onClick={onChooseAnotherWish}
             >
-              ↺  Xem hết thư này, thì xem những thư còn lại, rồi mới được xem SECRET nhé Anh khùng, không gian lận à
+              ↺  Xem hết thư này, bấm vào đây để xem những thư còn lại, rồi mới được xem SECRET nhé Anh khùng, không gian lận à
             </button>
           </div>
         </div>

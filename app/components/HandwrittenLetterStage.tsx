@@ -153,7 +153,7 @@ export default function HandwrittenLetterStage({
         </defs>
       </svg>
 
-      <p className="cinema-eyebrow">LÁ THƯ VIẾT TAY</p>
+      <p className="cinema-eyebrow">MY SECRET</p>
 
       {/* Khung bao đổ bóng sâu xuống mặt bàn tối bên dưới tờ thư */}
       <div className="torn-paper-shadow-wrap">
@@ -212,7 +212,7 @@ export default function HandwrittenLetterStage({
             <div className="paper-lamp-vignette" />
           </div>
 
-          <p className="handwritten-salutation">Gửi {recipient} thương mến,</p>
+          <p className="handwritten-salutation">Chúc mừng sinh nhật Anh nhá!!!</p>
 
           <div className="handwritten-paragraphs">
             {paragraphs.map((para, pIdx) => (
@@ -237,7 +237,7 @@ export default function HandwrittenLetterStage({
           </div>
 
           <p className={`handwritten-signature ${isDoneWriting ? "visible" : ""}`}>
-            Thương mến, {sender} ✦
+             Thương anh cực cực kì, Em Vy ✦
           </p>
         </article>
       </div>
