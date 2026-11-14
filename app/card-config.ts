@@ -21,7 +21,7 @@ export const cardConfig = {
 
   // Đường dẫn đến file nhạc nền trong thư mục public (ví dụ: "/nhac-sinh-nhat.mp3").
   // Nếu để trống "", thiệp sẽ tự động ngân vang giai điệu Piano & Hộp nhạc ấm áp ngay khi mở ấn sáp.
-  musicSrc: "/public/media/Cohenvoithanhxuan.mp3",
+  musicSrc: "/media/Cohenvoithanhxuan.mp3",
 
   // Các lớp ảnh chụp thật bằng máy ảnh DSLR cho Trang Mở Đầu phong cách Harry Potter / Ấn Sáp Vàng:
   // - hogwartsDeskImage     : Bàn gỗ thư pháp cổ với ngòi bút đồng, lò nung sáp vàng dưới ánh nến.
@@ -99,7 +99,7 @@ export const cardConfig = {
     "Moon&Star",
     "Tưởng tượng mặt này mà buồn trông mắc cười lắm nè"
     
-  ],
+  ], 
 
   // Các câu tâm sự hiện lên từng câu một sau khi thắp nến xong:
   // Câu trước hiện rõ -> dừng lại để đọc -> mờ dần tan đi -> câu tiếp theo xuất hiện (tổng ~16 giây).
