@@ -48,7 +48,7 @@ export const cardConfig = {
   deepGalaxyImage: "/media/galaxy-deep.webp",
 
   // Ảnh kỷ niệm nhỏ dạng Polaroid kẹp ghim đồng vàng ở góc trên bên phải tờ giấy tâm sự.
-  letterPolaroidPhoto: "/media/memory-1.jpg",
+  letterPolaroidPhoto: "/media/fa7a66eedb085b560219.jpg",
 
   // Danh sách ảnh kỷ niệm tông Vàng Hoàng Kim - Sâm Panh - Kem Ngà hợp Mệnh Kim
   // dùng để ghép thành hình trái tim 46 mảnh và xem phóng to trong album Polaroid 35mm.
